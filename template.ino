@@ -1,11 +1,11 @@
-% Each arduino code will follow this template
+// Each arduino code will follow this template
 
 #define LED 4       // We define that in digital pin 4 we will connect a LED
 #define ANAL A0     // We define that in analog pin 0 we will connect a analog sensor
 
 
 void setup() {
-    Serial.begin
+    Serial.begin(9600);
 }
 
 // Return 0 if door is closed and 1 if door is open
